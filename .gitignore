@@ -1,1 +1,29 @@
 secrets.tfvars
+
+# File di stato di Terraform/OpenTofu
+terraform.tfstate
+terraform.tfstate.backup
+
+# File di output e crash
+crash.log
+
+# Directory di lavoro di Terraform
+.terraform/
+
+# File di override e variabili locali
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# File di variabili e configurazione
+.terraformrc
+terraform.rc
+
+# File temporanei
+*.tfplan
+*.tfvars
+*.tfvars.json
+
+# File di log
+*.log
